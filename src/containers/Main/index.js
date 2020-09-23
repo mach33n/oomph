@@ -4,7 +4,7 @@ import Geolocation from '@react-native-community/geolocation';
 import Geocoder from 'react-native-geocoding';
 import Map from '~/components/Map';
 
-Geocoder.init('AIzaSyAAFz7wsoEsvZOY24eqBigX57ZdcUT-RbA');
+Geocoder.init('AIzaSyA3pQtsdb0YX0-tZIbhU9jshCvn-AIpj8Q');
 
 const Main = () => {
   const [region, setRegion] = useState({
