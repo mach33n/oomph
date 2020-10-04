@@ -1506,6 +1506,11 @@
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
+"@react-native-firebase/database@^7.5.11":
+  version "7.5.11"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/database/-/database-7.5.11.tgz#b0af66769148a2bca2ed0093e2a8f698461e33bf"
+  integrity sha512-gatv4q5dAp2m0YYaD6YkGvR6s1diEf0pFwXUUFsZMikpwgfX1HRFH/SdSUiCH18FC/5s68L0oInj/LQI47ZfcA==
+
 "@react-navigation/core@~3.5.1":
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.5.2.tgz#3a3d147b8419e5839e0f2ad4dea086bd2d307fe3"

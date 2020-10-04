@@ -8,25 +8,6 @@ import rootReducer from './redux/reducers';
 import rootSaga from './redux/sagas';
 import configureStore from './redux/store/configureStore';
 
-import * as firebase from 'firebase';
-import '@firebase/auth';
-import '@firebase/firestore';
-
-const firebaseConfig = {
-  apiKey: "AIzaSyCC-c_kN_UeOgkU5PvfFszr-eNKaAKz2q4",
-  authDomain: "oomph-85176.firebaseapp.com",
-  databaseURL: "https://oomph-85176.firebaseio.com",
-  projectId: "oomph-85176",
-  storageBucket: "oomph-85176.appspot.com",
-  messagingSenderId: "747032968324",
-  appId: "1:747032968324:web:d1a14def9951a75cf096d1",
-  measurementId: "G-PXEVXWN47G"
-};
-
-if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-}
-
 const { store, persistor } = configureStore(rootReducer, rootSaga);
 
 // eslint-disable-next-line no-console
@@ -60,5 +41,4 @@ const App = () => (
   </Provider>
 );
 
-export { firebase };
 export default App;
