@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@react-native-community/geolocation": "^1.4.2",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@react-native-firebase/app": "^8.4.5",
     "apisauce": "^1.0.3",
+    "firebase": "^7.22.0",
     "immutable": "^4.0.0-rc.12",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
@@ -38,8 +41,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/runtime": "^7.9.2",
     "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.9.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.2",
     "babel-jest": "^26.3.0",
